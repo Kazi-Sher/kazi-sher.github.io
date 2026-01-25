@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mechatronics Engineer
+subtitle: Mechatronics Engineer and Researcher
 
 profile:
   align: right
@@ -22,12 +22,18 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I work with the applications of magnetic levitation and rotordynamics.
+
+My recent work at [Sabanci University](https://www.sabanciuniv.edu/en){:target="_blank" rel="noopener noreferrer"} focused on a systematic design framework and the manufacturing of an active magnetic bearing (AMB) spindle for micro-milling. I also performed multidisciplinary optimization that coupled AMB and motor performance.
+
+Previously, I worked in Vibration Dynamics and Controls Laboratory at GIK Institute where I developed and benchmarked an open-source rotordynamic code [VibronRotor](https://github.com/Kazi-Sher/VibronRotor). I also worked on the design of a micro-hydro turbine and a rotor test rig.
+
+I am passionate about the applications of magnetic levitation and the development of open-source computational and design codes.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
