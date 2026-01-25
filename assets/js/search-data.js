@@ -511,14 +511,14 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Academic_CV_Kazi_Jan19_2026.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6B%61%7A%69%73%68%65%72%61%68%6D%65%64@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -539,7 +539,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=NENv8hQAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
