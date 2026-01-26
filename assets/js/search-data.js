@@ -377,8 +377,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-study-on-integrated-design-optimization-of-a-motorized-amb-spindle-has-been-published-in-the-journal-of-mechanical-science-and-technology",
-          title: 'Our study on integrated design optimization of a motorized AMB spindle has been...',
+            },},{id: "news-our-paper-on-integrated-design-optimization-of-a-motorized-amb-spindle-has-been-published-in-the-journal-of-mechanical-science-and-technology",
+          title: 'Our paper on integrated design optimization of a motorized AMB spindle has been...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
