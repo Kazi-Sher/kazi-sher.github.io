@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 3rd April 2025
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our study on [integrated design optimization of a motorized AMB spindle](https://doi.org/10.1007/s12206-025-0327-x) has been published in the [Journal of Mechanical Science and Technology](https://link.springer.com/journal/12206)
