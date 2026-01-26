@@ -6,7 +6,7 @@ subtitle: Mechatronics Engineer and Researcher
 
 profile:
   align: right
-  image: Kazi_new.jpg
+  image: Kazi_new1.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #  <p>555 your office number</p>
