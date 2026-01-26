@@ -2,16 +2,7 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
-    {% if page.redirect_to %}
-      {% if page.redirect_to == true %}
-        {% assign redirect_to = site.baseurl | append: '/' %}
-      {% elsif page.redirect_to contains '://' %}
-        {% assign redirect_to = page.redirect_to %}
-      {% else %}
-        {% assign redirect_to = page.redirect_to | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="0; url={{ redirect_to }}">
-    {% elsif page.redirect %}
+    {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
       {% elsif page.redirect contains '://' %}
