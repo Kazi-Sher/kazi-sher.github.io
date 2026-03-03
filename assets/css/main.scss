@@ -22,9 +22,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-// Custom styles
-.publication-preview img {
-  width: 300px;  // adjust this value to your preferred size
-  height: auto;
-}
