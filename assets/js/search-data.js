@@ -377,8 +377,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-on-integrated-design-optimization-of-a-motorized-amb-spindle-has-been-published-in-the-journal-of-mechanical-science-and-technology",
-          title: 'Our paper on integrated design optimization of a motorized AMB spindle has been...',
+            },},{id: "news-our-paper-integrated-design-optimization-of-a-motorized-active-magnetic-bearing-spindle-for-micro-milling-applications-has-been-published-in-the-journal-of-mechanical-science-and-technology",
+          title: 'Our paper “Integrated Design Optimization of a Motorized Active Magnetic Bearing Spindle for...',
           description: "",
           section: "News",},{id: "news-our-preprint-design-framework-and-manufacturing-of-an-active-magnetic-bearing-spindle-for-micro-milling-applications-is-up-on-arxiv",
           title: 'Our preprint “Design Framework and Manufacturing of an Active Magnetic Bearing Spindle for...',
