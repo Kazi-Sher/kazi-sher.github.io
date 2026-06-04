@@ -8,10 +8,14 @@ profile:
   align: right
   image: Kazi_text.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #  <p>555 your office number</p>
-  #  <p>123 your address street</p>
-  #  <p>Your City, State 12345</p>
+  more_info: >
+    <div class="profile-links">
+      <a href="https://scholar.google.com/citations?user=NENv8hQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="https://github.com/Kazi-Sher" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/kazisherahmed" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://orcid.org/0000-0001-8688-9637" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a href="mailto:kazisherahmed@gmail.com">Email</a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
