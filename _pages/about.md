@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mechatronics Engineer and Researcher
+subtitle: Mechatronics Researcher
 
 profile:
   align: right
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work with the applications of magnetic levitation, rotordynamics, and control systems, building rotating machinery and open-source computational tools for modeling, optimization, and validation.
+I work with magnetic levitation, control systems, and rotordynamics, building rotating machinery, embedded controllers, and open-source computational tools for modeling, optimization, and validation.
 
 My recent work at [Sabanci University](https://www.sabanciuniv.edu/en){:target="_blank" rel="noopener noreferrer"} proposed a systematic design frameworks for spindles and manufactured an active magnetic bearing (AMB) micro-milling spindle.
 
