@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Released [VibronRotor](https://github.com/Kazi-Sher/VibronRotor){:target="_blank" rel="noopener noreferrer"}: An open-source finite-element rotordynamic code for flexible rotor-bearing systems
+Released <a href="https://github.com/Kazi-Sher/VibronRotor" target="_blank" rel="noopener noreferrer">VibronRotor</a>: An open-source finite-element rotordynamic code for flexible rotor-bearing systems
