@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work with active magnetic bearings, rotordynamics, and control systems, using analytical and finite-element models, numerical optimization, experiments, and open-source tools to study rotating machinery.
+I work with magnetic levitation, control systems, and rotordynamics, building rotating machinery, embedded controllers, and open-source computational tools for modeling, optimization, and validation.
 
 My work at <a href="https://www.sabanciuniv.edu/en" target="_blank" rel="noopener noreferrer">Sabanci University</a> proposed systematic design frameworks for spindles and manufactured an active magnetic bearing (AMB) micro-milling spindle.
 
