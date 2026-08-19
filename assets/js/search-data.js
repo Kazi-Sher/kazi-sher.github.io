@@ -27,8 +27,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-preprint-design-framework-and-manufacturing-of-an-active-magnetic-bearing-spindle-for-micro-milling-applications-is-up-on-arxiv",
           title: 'Our preprint “Design Framework and Manufacturing of an Active Magnetic Bearing Spindle for...',
           description: "",
-          section: "News",},{id: "news-open-sourced-dc-motor-control-test-rig-a-low-cost-rig-benchmarking-pi-pole-placement-lqr-and-observer-based-luenberger-kalman-lqg-control-on-a-geared-dc-motor",
-          title: 'Open-sourced DC Motor Control Test Rig: A low-cost rig benchmarking PI, pole-placement, LQR,...',
+          section: "News",},{id: "news-open-sourced-dc-motor-control-test-rig-a-low-cost-rig-implementing-pi-pole-placement-lqr-and-observer-based-luenberger-kalman-lqg-control-on-a-geared-dc-motor",
+          title: 'Open-sourced DC Motor Control Test Rig: A low-cost rig implementing PI, pole-placement, LQR,...',
           description: "",
           section: "News",},{
         id: 'social-cv',
