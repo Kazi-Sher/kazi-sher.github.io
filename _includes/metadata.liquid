@@ -82,6 +82,8 @@
   {% assign sameaslinks = '' | split: ',' %}
   {% for social in site.data.socials %}
     {% case social[0] %}
+      {% when 'cv_pdf' %}
+        {% comment %} A local CV file is not an external identity profile. {% endcomment %}
       {% when 'acm_id' %}
         {% capture link %}https://dl.acm.org/profile/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}

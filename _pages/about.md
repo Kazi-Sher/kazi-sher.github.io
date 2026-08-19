@@ -23,9 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work with magnetic levitation, control systems, and rotordynamics, building rotating machinery, embedded controllers, and open-source computational tools for modeling, optimization, and validation.
+I work with active magnetic bearings, rotordynamics, and control systems, using analytical and finite-element models, numerical optimization, experiments, and open-source tools to study rotating machinery.
 
-My recent work at [Sabanci University](https://www.sabanciuniv.edu/en){:target="_blank" rel="noopener noreferrer"} proposed systematic design frameworks for spindles and manufactured an active magnetic bearing (AMB) micro-milling spindle.
+My work at [Sabanci University](https://www.sabanciuniv.edu/en){:target="_blank" rel="noopener noreferrer"} proposed systematic design frameworks for spindles and manufactured an active magnetic bearing (AMB) micro-milling spindle.
 
 Previously, I worked at [GIK Institute](https://www.giki.edu.pk){:target="_blank" rel="noopener noreferrer"} where I developed and benchmarked an open-source finite-element rotordynamic code [VibronRotor](https://github.com/Kazi-Sher/VibronRotor){:target="_blank" rel="noopener noreferrer"} for flexible rotor-bearing systems.
 
