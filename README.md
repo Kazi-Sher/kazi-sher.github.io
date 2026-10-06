@@ -254,9 +254,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Getting started](#getting-started)
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
-  - [GitHub Copilot Agents](#github-copilot-agents)
-    - [Customization Agent](#customization-agent)
-    - [Documentation Agent](#documentation-agent)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -292,34 +289,6 @@ For installation and deployment details please refer to [INSTALL.md](INSTALL.md)
 ## Customizing
 
 For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
-
-## GitHub Copilot Agents
-
-This repository includes two specialized GitHub Copilot agents to enhance your development experience:
-
-### Customization Agent
-
-The **Customization Agent** helps you personalize your al-folio website by:
-
-- Guiding you through configuration changes step-by-step
-- Modifying files directly in your repository
-- Explaining technical concepts in plain language (great for users without coding experience)
-- Assisting with common tasks like updating your CV, adding publications, creating blog posts, and customizing themes
-
-See [CUSTOMIZE.md § GitHub Copilot Customization Agent](CUSTOMIZE.md#github-copilot-customization-agent) for detailed usage instructions.
-
-### Documentation Agent
-
-The **Documentation Agent** maintains clear and up-to-date project documentation by:
-
-- Updating documentation files when features change
-- Writing in a style accessible to academics and researchers
-- Keeping documentation synchronized with the codebase
-- Following documentation best practices
-
-See [CONTRIBUTING.md § GitHub Copilot Agents](CONTRIBUTING.md#github-copilot-agents) for more information.
-
-> **Requirements:** Both agents require a [GitHub Copilot](https://github.com/features/copilot) subscription. For more information about GitHub Copilot and how to use agents, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
 
 ## Features
 

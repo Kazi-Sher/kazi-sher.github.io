@@ -9,10 +9,6 @@ Here we will give you some tips on how to customize the website. One important t
 - [Customize](#customize)
   - [Project structure](#project-structure)
   - [Configuration](#configuration)
-  - [GitHub Copilot Customization Agent](#github-copilot-customization-agent)
-    - [What the Agent Can Help With](#what-the-agent-can-help-with)
-    - [How to Use the Agent](#how-to-use-the-agent)
-    - [Important: Verify Agent Output](#important-verify-agent-output)
   - [Understanding the Codebase with Code Wiki and DeepWiki](#understanding-the-codebase-with-code-wiki-and-deepwiki)
     - [What are these tools?](#what-are-these-tools)
     - [When to use them](#when-to-use-them)
@@ -115,68 +111,6 @@ The configuration file [\_config.yml](_config.yml) contains the main configurati
 > Note that the `url` and `baseurl` settings are used to generate the links of the website, as explained in the [install instructions](INSTALL.md).
 
 All changes made to this file are only visible after you rebuild the website. That means that you need to run `bundle exec jekyll serve` again if you are running the website locally or push your changes to GitHub if you are using GitHub Pages. All other changes are visible immediately, you only need to refresh the page.
-
-## GitHub Copilot Customization Agent
-
-This repository includes a specialized GitHub Copilot agent (`.github/agents/customize.agent.md`) designed to help you customize your al-folio website. The agent acts as an expert assistant that can:
-
-- Guide you through common customization tasks step-by-step
-- Modify configuration files, add content, and update your website
-- Explain technical concepts in plain language (especially helpful if you're not familiar with Jekyll or web development)
-- Apply changes directly to your repository files
-- Answer questions about how to customize specific features
-
-### What the Agent Can Help With
-
-The customization agent can assist with tasks such as:
-
-- Changing basic site information (title, author name, contact details)
-- Updating your CV or resume
-- Adding and managing publications from BibTeX files
-- Creating blog posts, projects, and news items
-- Customizing theme colors and styling
-- Managing social media links
-- Enabling or disabling features in `_config.yml`
-- Adding profile pictures and other assets
-- Troubleshooting configuration issues
-
-### How to Use the Agent
-
-To use the customization agent:
-
-1. Ensure you have a [GitHub Copilot](https://github.com/features/copilot) subscription
-2. Open your repository in an editor with GitHub Copilot support (such as VS Code with the GitHub Copilot extension)
-3. Interact with GitHub Copilot and ask questions or request changes. For more information, check [Using custom agents in your IDE](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents#using-custom-agents-in-your-ide)
-4. The agent will guide you through the customization process and can make changes directly to your files
-
-For example, you can ask:
-
-- "How do I change my website's theme color to blue?"
-- "Help me add a new blog post about my research"
-- "Update my profile information with my new university email"
-- "How do I add a publication to my website?"
-
-The agent is designed to be patient and helpful, explaining each step clearly so you understand what's being changed and why.
-
-### Important: Verify Agent Output
-
-**The customization agent can make mistakes or produce incorrect information.** Always review and verify the agent's suggestions and changes before applying them to your repository:
-
-- **Review all changes** – Before applying any modifications, carefully read what the agent suggests and ensure it makes sense for your needs
-- **Test locally first** – Before pushing changes to GitHub, test them locally using Docker or native setup (see the [Installation instructions](INSTALL.md))
-- **Check syntax** – Make sure any YAML, Markdown, or BibTeX files have correct syntax. Incorrect syntax can break your website
-- **Verify configuration** – If the agent modifies `_config.yml` or other configuration files, check that the changes align with your intentions
-- **Preview on your site** – Run your site locally and navigate through it to ensure everything displays correctly and works as expected
-- **Don't blindly apply changes** – Understand what's being changed and why before committing to your repository
-
-**Example scenarios where verification is important:**
-
-- If the agent suggests a BibTeX entry, verify the syntax matches existing entries in your `_bibliography/papers.bib` file
-- If the agent modifies your `_config.yml`, check that indentation is correct (YAML is very sensitive to spacing)
-- If the agent creates a new blog post or page, verify the frontmatter (the metadata at the top) is correct
-- If the agent suggests changes to theme colors or styling, preview your site locally to ensure the changes look as intended
-
-> **Note:** The customization agent requires GitHub Copilot to be enabled. For more information about GitHub Copilot and its features, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
 
 ## Understanding the Codebase with Code Wiki and DeepWiki
 
