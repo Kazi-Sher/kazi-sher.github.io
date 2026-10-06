@@ -199,7 +199,18 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
+      {% if entry.sharedit %}
+        <a
+          href="{{ entry.sharedit }}"
+          class="btn btn-sm z-depth-0"
+          role="button"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Free online reading via Springer Nature SharedIt"
+          >Read full text</a
+        >
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
@@ -216,9 +227,17 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">{{ entry.pdf_label | default: 'PDF' }}</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">PDF</a>
+          <a
+            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            role="button"
+            target="_blank"
+            rel="noopener"
+          >
+            {{- entry.pdf_label | default: 'PDF' -}}
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
