@@ -18,9 +18,9 @@ announcements:
   limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 2 # number of blog cards on the homepage (image + short description each)
 ---
 
 I work with magnetic levitation, control systems, and rotordynamics, building rotating machinery, embedded controllers, and open-source computational tools for modeling, optimization, and validation.

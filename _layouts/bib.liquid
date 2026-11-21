@@ -182,7 +182,7 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
-      {% if entry.note %} — {{ entry.note | strip }}{% endif %}
+      {% if entry.note %}({{ entry.note | strip }}){% endif %}
     </div>
 
     <!-- Links/Buttons -->
@@ -225,6 +225,11 @@
         {% else %}
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
+      {% endif %}
+      {% if entry.certificate %}
+        <a href="{{ entry.certificate | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener"
+          >Award</a
+        >
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
