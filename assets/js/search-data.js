@@ -33,6 +33,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-design-framework-and-manufacturing-of-an-active-magnetic-bearing-spindle-for-micro-milling-applications-has-been-published-in-the-international-journal-of-advanced-manufacturing-technology",
           title: 'Our paper “Design Framework and Manufacturing of an Active Magnetic Bearing Spindle for...',
           description: "",
+          section: "News",},{id: "news-our-paper-integrated-design-optimization-of-a-motorized-active-magnetic-bearing-spindle-for-micro-milling-applications-received-the-2025-second-best-paper-award-from-the-journal-of-mechanical-science-and-technology",
+          title: 'Our paper “Integrated Design Optimization of a Motorized Active Magnetic Bearing Spindle for...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
